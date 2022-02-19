@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            './assets/Juice-Bot/Juice-Bot.jpg'
+            './assets/Juice-Bot/Juice-Bot.gif'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -64,5 +64,5 @@ export default class Command extends BaseCommand {
             )}\n💎 *Usage:* ${command.config?.usage || ''}\n\n📒 *Description:* ${command.config?.description || ''}`
         )
     }
-    lemojis = ['🏮','🎐','🎍','🎨','🔍','🛡','🔩','🎵','🥇','🍀']
+    lemojis = ['🏮','🎨','🎍','🎐','🔍','🛡','🔩','🎵','🥇','🍀']
 }
