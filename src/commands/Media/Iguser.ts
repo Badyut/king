@@ -17,17 +17,15 @@ export default class Command extends BaseCommand {
             usage: `${client.config.prefix}iguser [name]`
         })
     }
-	
+
 	    run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-        
+
         if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
         const chitoge = joined.trim()
         console.log(chitoge)
-        const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${chitoge}&apikey=LJowCce5Pn`)
-        const g = (data.result.following.split(' Following')[0])
-        const o = (data.result.followers.split(' Followers')[0])
+        const { data } = await axios.get(`https://api.popcat.xyz/instagram?user=${chitoge}`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
-        const buffer = await request.buffer(data.result.profile_url).catch((e) => {
+        const buffer = await request.buffer(data.profile_pic).catch((e) => {
             return void M.reply(e.message)
         })
         while (true) {
@@ -37,7 +35,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `✔ *Verified*:${data.result.is_verified}\n🗣 *Private*:${data.result.is_private}\n🎛 *Postcount*:${data.result.posts_coun}\n🍃 *Following*:${data.result.followers}\n🗻 *Followers*:${data.result.following}\n📖 *Bio*:${data.result.biography}\n📃 *Fullname*:${data.result.full_name}\n🀄 *Username*: ${data.result.username}\n`,
+                    `✔ *Verified*:${data.verified}\n🗣 *Private*:${data.private}\n🎛 *Postcount*:${data.posts}\n🍃 *Following*:${data.following}\n🗻 *Followers*:${data.followers}\n📖 *Bio*:${data.biography}\n📃 *Fullname*:${data.full_name}\n🀄 *Username*: ${data.username}\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
