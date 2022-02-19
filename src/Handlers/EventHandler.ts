@@ -26,11 +26,11 @@ await this.client.groupLeave(event.jid)
         const text = add
 					? `- ${group.subject || "___"} -\n\n💠 *Group Description:*\n${
 							group.desc
-					  }\n\n*🛑🛑🛑🛑🛑🛑🛑🛑\n{Please deactivate this feature}*\n\n${event.participants
+					  }\n\n{Please deactivate this feature}*\n\n${event.participants
 							.map((jid) => `@${jid.split("@")[0]}`)
 							.join(", ")}`
 					: event.action === "remove"
-					? `*🛑🛑🛑🛑🛑🛑🛑🛑\n{Please deactivate this feature}* *@${
+					? `{Please deactivate this feature}* *@${
 							event.participants[0].split("@")[0]
 					  }* \n\n  *Even this group is amazing !!  But we all members not gonna miss you .*
  `
