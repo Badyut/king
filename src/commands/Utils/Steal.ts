@@ -47,7 +47,7 @@ export default class Command extends BaseCommand {
 			const pack = parsedArgs.joined.split("|");
 			if (!pack[1])
 				return void M.reply(
-					`Give me the new name and author of the sticker, Baka!\nExample: ${this.client.config.prefix}steal | By | Chitoge`
+					`Give me the new name and author of the sticker, Baka!\nExample: ${this.client.config.prefix}steal | By | Juicekid `
 				);
 			const filename = `${tmpdir()}/${Math.random().toString(36)}`;
 			const getQuality = (): number => {
@@ -92,7 +92,7 @@ export default class Command extends BaseCommand {
 								categories.push("🎊");
 								break;
 						}
-						return categories;
+					G	return categories;
 					}, new Array<Categories>());
 					categories.length = 2;
 					if (!categories[0]) categories.push("❤", "🌹");
