@@ -25,7 +25,6 @@ export interface ICommand {
 export type TCategory =
 	| "coding"
 	| "dev"
-        | "economy"
 	| "fun"
 	| "games"
 	| "educative"
