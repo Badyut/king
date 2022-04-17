@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `🍃 🍺Juice-Bot's Command List🍺 🍃\n--> Official group:-  https://chat.whatsapp.com/KZj2PsQoxEO2QGR3NvBaQ7💡 *Prefix:* " *${this.client.config.prefix}*                          \n\n`
+            let text = `🍃 🍺king-Juice-Bot's Command List🍺 🍃\n--> Official group:-  💡 *Prefix:* " *${this.client.config.prefix}*                          \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.lemojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n\n• \`\`\`${categories[
