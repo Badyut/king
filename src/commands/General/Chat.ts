@@ -10,10 +10,10 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'chat',
-            description: 'Chat with the Bot in group',
-            aliases: ['bot'],
+            description: 'Chat with the king in group',
+            aliases: ['king'],
             category: 'fun',
-            usage: `${client.config.prefix}bot (text)`,
+            usage: `${client.config.prefix}king (text)`,
             baseXp: 30
         })
     }
