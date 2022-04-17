@@ -1,4 +1,4 @@
-<div align="center">
+Dec<div align="center">
 <a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://c.tenor.com/ECr4aPQCyx0AAAAC/pikachu-cute.gif" alt="Cara" border="0"></a>
 
 # <h1><er>Piku is a of Cara(owned by Daskun)</er></a></h1>
@@ -7,7 +7,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/Ife250/Juice-kingsley-Bot-/blob/main
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/Ife250/Juice-kingsley-Bot-/blob/main)
 </div>
 <div align="center">
 <h1>Cara is full of Anime and Nsfw and many more features</h1>
