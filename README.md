@@ -7,7 +7,7 @@ Dec<div align="center">
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/Ife250/Juice-kingsley-Bot-/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dark-worf/test114)
 </div>
 <div align="center">
 <h1>Cara is full of Anime and Nsfw and many more features</h1>
