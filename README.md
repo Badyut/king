@@ -7,7 +7,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Juice-Kid/Juice-Bot-)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Ife250/kingsley-Juice-Bot-)
 
 </div>
 <div align="center">
