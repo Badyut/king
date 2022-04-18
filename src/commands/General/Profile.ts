@@ -52,9 +52,9 @@ export default class Command extends BaseCommand {
 				} else if (exp < 75000) {
 					role = "🌀 Hero";
 				} else if (exp < 100000) {
-					role = "💎 Supreme";
+					role = "💎 Supreme near kingsley";
 				} else {
-					role = "❄️ Mystic";
+					role = "❄️ Kíñgsléy mode";
 				}
 
 				let level: number;
