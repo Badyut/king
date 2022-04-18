@@ -93,21 +93,21 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/1e39217e12c4bf9e4e788.jpg`),
+				return void M.reply( await request.buffer(`https://telegra.ph/file/b8601134b81239fccbde5.mp4`),
         MessageType.image,
                     undefined,
                     undefined,
-                    `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
+                    `No 😒 such command, motherfucker! 🙂 Have you never seen someone 🤨 use the command *${this.client.config.prefix}help*`,
                     undefined
                 )
 		const user = await this.client.getUser(M.sender.jid);
-		if (user.ban) return void M.reply("You're Banned from using commands.");
+		if (user.ban) return void M.reply("You're Banned from using the legendary kingsley.");
 		const state = await this.client.DB.disabledcommands.findOne({
 			command: command.config.command,
 		});
 		if (state)
 			return void M.reply(
-				`✖ This command is disabled${
+				`✖ This 👀 command is 🙂 disabled${
 					state.reason ? ` for ${state.reason}` : ""
 				}`
 			);
@@ -117,11 +117,11 @@ export default class MessageHandler {
 			command.config?.modsOnly &&
 			!this.client.config.mods?.includes(M.sender.jid)
 		) {
-			return void M.reply(`Only MODS are allowed to use this command.`);
+			return void M.reply(`Only Kingsley 😎 and his legends 👌 are allowed to use this fucking 🙂 command.`);
 		}
 		if (command.config?.adminOnly && !M.sender.isAdmin)
 			return void M.reply(
-				`This command is only meant for the group admins, Baka!`
+				`This command is only meant 🤔 for the group 🙁 admins, Baka!`
 			);
 		try {
 			await command.run(M, this.parseArgs(args));
