@@ -1,7 +1,7 @@
 Dec<div align="center">
-<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://c.tenor.com/ECr4aPQCyx0AAAAC/pikachu-cute.gif" alt="Cara" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/t3tbKCJ/K-gsl-y-Goku.jpg" alt="Kíñgsléy Goku" border="0"></a>
 
-# <h1><er>bloody boy(owned by kingsley)</er></a></h1>
+<h1><er>bloody boy(owned by kingsley)</er></a></h1>
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IDZRRpcy0ZpLCetx1I9rFt)<br> [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) <br>[![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
