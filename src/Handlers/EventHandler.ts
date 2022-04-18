@@ -16,7 +16,7 @@ export default class EventHandler {
         const groupData = await this.client.groupMetadata(event.jid);
 const members = groupData.participants.length
 if (members < 5) { 
-await this.client.sendMessage(event.jid, `Bye 👋 Bye 👋 \n\n *You don't have enough member to use bot*\n\n*︽]|I{•------» Juice-Bot «------•}I|[︽*`, MessageType.text)
+await this.client.sendMessage(event.jid, `Bye 👋 Bye 👋 \n\n *You don't have enough member to use bot*\n\n*︽]|I{•------» kingsley-Bot «------•}I|[︽*`, MessageType.text)
 await this.client.groupLeave(event.jid)
 }
        
@@ -32,9 +32,9 @@ await this.client.groupLeave(event.jid)
 					: event.action === "remove"
 					? `*${
 							event.participants[0].split("@")[0]
-					  }* \n\n  *Even this group is amazing !!  But we all members not gonna miss you .*
+					  }* \n\n  *Even this group is ✌️ amazing!! But aaah 🤬 fuck you we all members 🙂 are not gonna miss 👌 you .*
  `
-					: `Ara Ara, looks like *@${
+					: `nice 🥴, looks like *@${
 							event.participants[0].split("@")[0]
 					  }* got ${this.client.util.capitalize(event.action)}d${
 							event.actor ? ` by @${event.actor.split("@")[0]}` : ""
