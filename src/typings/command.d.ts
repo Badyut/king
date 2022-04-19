@@ -23,16 +23,16 @@ export interface ICommand {
 }
 
 export type TCategory =
-	| "coding"
-        | "creation"
-	| "dev"
-	| "fun"
-	| "games"
-	| "educative"
+	| "👩‍💻coding👩‍💻"
+        | "🌚creation🌝"
+	| "dev🥴"
+	| "fun😄"
+	| "games😕"
+	| "🤓educative🤓"
 	| "general"
-	| "media"
-	| "moderation"
-        | "nsfw"
+	| "👩‍🎤media🤘"
+	| "😜Lègéñds😎"
+        | "😈nsfw😈"
 	| "utils"
 	| "weeb"
 	| "category";
