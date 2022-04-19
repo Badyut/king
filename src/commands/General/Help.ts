@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            './assets/Juice-Bot/Juice-Bot.gif'
+            './assets/dragon-ball-goku-ultra-instinct-sh4s3b0ru7osoraq.jpg'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `🍃 🍺king-Juice-Bot's Command List🍺 🍃\n--> Official group:- https://chat.whatsapp.com/IDZRRpcy0ZpLCetx1I9rFt 💡 *Prefix:* " *${this.client.config.prefix}*                          \n\n`
+            let text = `🍃 😎kingsley-Bot's Command List👌 🍃\n--> Official group:- https://chat.whatsapp.com/IDZRRpcy0ZpLCetx1I9rFt 💡 *Prefix:* " *${this.client.config.prefix}*                          \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.lemojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n\n• \`\`\`${categories[
