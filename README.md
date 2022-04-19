@@ -50,13 +50,10 @@ Dec<div align="center">
 Distributed under the GNU AFFERO GENERAL PUBLIC License. See [LICENSE](/LICENSE)
 for more information.
 
-## 🎗Help 👌😄🩸
-Please give this repo a star if you like the bot
-
-
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/25060361/Ife250/king/recent-activity/37c68dedb80850df8ba3e4728c656626_badge.svg)](https://repography.com)
 [![Timeline graph](https://images.repography.com/25060361/Ife250/king/recent-activity/37c68dedb80850df8ba3e4728c656626_timeline.svg)](https://github.com/Ife250/king/commits)
 [![Trending topics](https://images.repography.com/25060361/Ife250/king/recent-activity/37c68dedb80850df8ba3e4728c656626_words.svg)](https://github.com/Ife250/king/commits)
 [![Top contributors](https://images.repography.com/25060361/Ife250/king/recent-activity/37c68dedb80850df8ba3e4728c656626_users.svg)](https://github.com/Ife250/king/graphs/contributors)
 
-
+## 🎗Help 👌😄🩸
+Please give this repo a star if you like the bot
