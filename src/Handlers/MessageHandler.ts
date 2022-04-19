@@ -107,7 +107,7 @@ export default class MessageHandler {
 		});
 		if (state)
 			return void M.reply(
-				`✖ This 👀 command is 🙂 disabled${
+				`✖ This 👀 command is 🙂 disabled by kingsley${
 					state.reason ? ` for ${state.reason}` : ""
 				}`
 			);
