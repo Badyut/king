@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
         if (!M.mentioned.length || !M.mentioned[0])
-            return void M.reply('Please don't 😈 mention the motherfucker 😈 whom you want to unban')
+            return void M.reply('Please don't mention the motherfucker 😈 whom you want to unban')
         let text = '*STATE*\n\n'
         for (const user of M.mentioned) {
             const data = await this.client.getUser(user)
@@ -26,11 +26,11 @@ export default class Command extends BaseCommand {
             // const username = info.notify || info.vname || info.name || user.split('@')[0]
             // const username = user.split('@')[0]
             if (!data?.ban) {
-                text += `🟨 @${user.split('@')[0]}: 🙂 Fucker Not 🙁 Banned\n`
+                text += `🟨 @${user.split('@')[0]}: Fucker Not 🙁 Banned\n`
                 continue
             }
             await this.client.unbanUser(user)
-            text += `🟩 @${user.split('@')[0]}: 😈 lucky you 🙁fool Unbanned\n`
+            text += `🟩 @${user.split('@')[0]}: lucky you 🙁fool Unbanned\n`
         }
         // M.reply(text)
         await M.reply(
