@@ -2,7 +2,6 @@
 |----|--------| 
 |Lyrics| Gives you the lyrics of the given song|
 |Play| Plays the given title|
-|Whatmusic|search for given audio or video|
 |Spotify|  Downloads songs from Spotify| 
 |YouTube video |Downloads video from YouTube| 
 |YouTube audio| Downloads audio from YouTube|
