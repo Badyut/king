@@ -93,11 +93,11 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/b8601134b81239fccbde5.mp4`),
+				return void M.reply( await request.buffer(`https://tenor.com/view/goku-dragon-ball-middle-finger-fuck-off-fuck-you-gif-16071104`),
         MessageType.image,
                     undefined,
                     undefined,
-                    `No 😒 such command, motherfucker! 🙂 Have you never seen someone 🤨 use the command *${this.client.config.prefix}help*`,
+                    `No such command, motherfucker Have you never seen someone use the command *${this.client.config.prefix}help*`,
                     undefined
                 )
 		const user = await this.client.getUser(M.sender.jid);
