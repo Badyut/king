@@ -31,7 +31,7 @@ export type TCategory =
 	| "educative"
 	| "general"
 	| "media"
-	| "Legends"
+	| "moderation"
         | "nsfw"
 	| "utils"
 	| "weeb"
