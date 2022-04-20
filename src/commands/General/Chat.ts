@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'chat',
-            description: 'Chat with the king in group',
+            description: 'Chat with the kingsley in group',
             aliases: ['king'],
             category: 'fun',
             usage: `${client.config.prefix}king (text)`,
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     return void M.reply(res.data.cnt)
                 })
                 .catch(() => {
-                    M.reply(`Intriguing...`)
+                    M.reply(`Fuck thinking...`)
                 })
         } else {
             M.reply(`Chat Bot Url not set.`)
