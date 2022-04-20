@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"assets/Pikachu/ezgif-2-e92fec600a.mp4";
+			"assets/goku-dragon-ball.gif";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Hey,Sup , \n\n king-juice here. \n`,
+				caption: `Hey Sup , \n\n kingsley-bot here. \n`,
 			}
 		);
 	};
