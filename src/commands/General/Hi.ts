@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://ibb.co/FxDdbMr";
+			"https://media.tenor.com/videos/8a6408675b1f806290aaac4b939c5a98/mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Hi kingsley here i don't have time to have a conversation with someone like you. Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Hello there, I am KINGSLEY-BOT⚡ a WhatsApp BOT deployed by my !owner Still in development though, I am online now. Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
 			}
 		);
 	};
