@@ -93,7 +93,7 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://tenor.com/view/goku-dragon-ball-middle-finger-fuck-off-fuck-you-gif-16071104`),
+				return void M.reply( await request.buffer(`https://telegra.ph/file/c32325afd4494bd71826d.mp4`),
         MessageType.image,
                     undefined,
                     undefined,
