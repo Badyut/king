@@ -93,7 +93,7 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/c32325afd4494bd71826d.mp4`),
+				return void M.reply( await request.buffer(`https://telegra.ph/file/c32325afd4494bd71826d.gif`),
         MessageType.image,
                     undefined,
                     undefined,
