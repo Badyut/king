@@ -93,7 +93,7 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/c32325afd4494bd71826d.gif`),
+				return void M.reply( await request.buffer(`https://www.whatspaper.com/wp-content/uploads/2022/02/hd-kakashi-hatake-wallpaper-whatspaper-17.jpg`),
         MessageType.image,
                     undefined,
                     undefined,
