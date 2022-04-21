@@ -20,15 +20,15 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"assets/goku-dragon-ball.gif";
+			"https://www.whatspaper.com/wp-content/uploads/2022/02/hd-kakashi-hatake-wallpaper-whatspaper-17.jpg";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
-			MessageType.video,
+			MessageType.image,
 			{
 				quoted: M.WAMessage,
-				mimetype: Mimetype.gif,
-				caption: `Hey Sup , \n\n kingsley-bot here. \n`,
+				mimetype: Mimetype.jpeg,
+				caption: `Hello there, I am *KINGSLEY-BOT* a WhatsApp BOT deployed by my ${this.client.config.prefix}owner . I am online now. Use *${this.client.config.prefix}help* to access my commandlist. \n`,
 			}
 		);
 	};
